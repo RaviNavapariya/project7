@@ -15,7 +15,7 @@ def get_data(id=None):
 # get_data()
 
 def post_data():
-    data = {'id':4,'name':'raj','roll':105,'city':'Delhi'}
+    data = {'id':4,'name':'raj','roll':155,'city':'Delhi'}
     json_data = json.dumps(data)
     headers = {'content-Type':'application/json'}
     r = requests.post(url = URL , headers = headers , data = json_data)
